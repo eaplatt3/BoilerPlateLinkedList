@@ -18,6 +18,12 @@ namespace ConsoleApp1
             list.head = new Node(1);
             Node second = new Node(2);
             Node third = new Node(3);
+
+            //links first with second
+            list.head.next = second;
+            
+            //links second with third
+            second.next = third;
             
         }
     }
