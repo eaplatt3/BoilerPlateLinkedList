@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static ConsoleApp1.LinkedList;
 
 namespace ConsoleApp1
 {
@@ -10,6 +11,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            //Creates List
+            LinkedList list = new LinkedList();
+
+            //Creating Nodes that are Allocated Dynamically
+            list.head = new Node(1);
+            Node second = new Node(2);
+            Node third = new Node(3);
+            
         }
     }
 }

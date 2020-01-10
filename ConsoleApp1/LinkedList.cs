@@ -6,19 +6,23 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class LinkedList
+    public class LinkedList
     {
         //The First node of the Linked List
         //The Node will be an Object that is null by default
-        Node head;
+        public Node head;
 
-        class Node
+        public class Node
         {
-            int data;
-            Node nect;
-
+            public int data;
+            public Node next;
+           
             //Constructor to Make a Node
-            Node(int d) { data = d; }
+            public Node(int d)
+            {
+                data = d;
+                next = null;
+            }
         }
     }
 }
