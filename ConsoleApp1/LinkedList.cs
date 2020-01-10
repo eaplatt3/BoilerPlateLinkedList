@@ -24,5 +24,16 @@ namespace ConsoleApp1
                 next = null;
             }
         }
+
+        //Method to Print List
+        public void printList()
+        {
+            Node n = head;
+            while (n != null)//checks that the node is not null
+            {
+                Console.Write(n.data + " ");
+                n = n.next;
+            }
+        }
     }
 }
