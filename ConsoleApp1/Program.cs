@@ -24,6 +24,9 @@ namespace ConsoleApp1
             
             //links second with third
             second.next = third;
+
+            //Prints List
+            list.printList();
             
         }
     }
